@@ -19,6 +19,8 @@ const TAB_DATA = [
         <li>Github</li>
         <li>MongoDB</li>
         <li>MySQL</li>
+        <li>Wordpress</li>
+        <li>Flutter</li>
 
       </ul>
     ),
@@ -65,7 +67,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/Photos.png" alt="" width={500} height={500} className="bg-white rounded-lg" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Qui Suis-je ?</h2>
           <p className="text-base lg:text-lg">
             {/* I am a fullstack web developer with a passion for creating
             interactive and responsive web applications. I have experience
@@ -98,7 +100,7 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               {" "}
-              Certifications{" "}
+              Certificat{" "}
             </TabButton>
           </div>
           <div className="mt-8">
