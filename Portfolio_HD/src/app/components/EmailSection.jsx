@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import PhoneIcon from "../../../public/phone.svg";
+import PhoneIcon from "../../../public/whatsapp.svg";
 import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser"
@@ -94,13 +94,16 @@ const EmailSection = () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link> 
           <div className="flex  justify-center items-center">
-          <Image
+            <Link href="https://wa.me/+22557379276">
+            <Image
               src={PhoneIcon}
               alt="phone"
               width={35}
               height={35}
-            />
-            <p className="text-[#ADB7BE]  max-w-md">+225-075-737-9276</p>
+            />  
+            </Link>
+          
+            {/* <p className="text-[#ADB7BE]  max-w-md">+225-075-737-9276</p> */}
           
           </div>
         </div>  

@@ -42,6 +42,7 @@ const HeroSection = () => {
           <div>
             <Link
               href="/#contact"
+              // href="https://wa.me/+22557379276"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-400 to-blueGray-600 hover:bg-slate-200 text-white"
             >
               Hire Me

@@ -78,7 +78,7 @@ const AboutSection = () => {
             Je suis un développeur web fullstack avec une passion pour la création d&apos;applications web interactives et réactives.
             J&apos;ai de l&apos;expérience avec JavaScript, React, Vue.js, HTML, CSS, Tailwind et Git. 
             J&apos;apprends rapidement et je cherche toujours à élargir mes connaissances et mon ensemble de compétences.
-            Je suis un joueur d&apos;équipe et je suis enthousiaste à l&apos;idée de travailler avec d&apos;autres pour créer des applications étonnantes.
+            Je suis un joueur d&apos;équipe et je suis enthousiaste à l&apos;idée de travailler avec d&apos;autres pour créer des applications innovantes.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
