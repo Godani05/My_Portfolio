@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blueGray-600">
-              Hello, I&apos;m{" "}
+              {/* Hi, I&apos;m{" "} */} Bonjour, Je suis
             </span>
             <br></br>
             <TypeAnimation
@@ -53,7 +53,7 @@ const HeroSection = () => {
               download
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                Telecharger Mon Cv
               </span>
             </Link>
           </div>
