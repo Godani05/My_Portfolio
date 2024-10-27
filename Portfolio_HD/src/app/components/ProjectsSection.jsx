@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: " GreatMovies",
-    description: "Reservation de Films",
+    description: "Notation et Commentaire de Films",
     image: "/images/projects/Mymovies.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "My Portofolio",
     description: "Conception du Portofolio",
-    image: "/images/projects/myportofolio.png",
+    image: "/images/projects/PortFolio.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/https://hel-portofolio.netlify.app/",

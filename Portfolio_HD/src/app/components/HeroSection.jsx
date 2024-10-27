@@ -48,7 +48,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/Cv/Cv E_Huego .pdf"
+              href="/Cv/E_Huego.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-blue-400 to-blueGray-600 hover:bg-slate-800 text-white mt-3"
               download
             >
@@ -64,11 +64,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-lg bg-white w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className=" w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/Moi.jpg"
+              src="/images/Ezechiel.jpeg"
               alt="image Me"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded "
               width={400}
               height={400}
             />
